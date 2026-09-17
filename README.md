@@ -17,7 +17,7 @@ REST API para gestión de estudiantes, profesores y calificaciones. Desarrollado
 
 ```bash
 git clone https://github.com/blaagroupsas/prueba_audisoft_backend.git
-cd prueba_audisoft_backend/backend/SchoolApiBackend/src/SchoolApi
+cd prueba_audisoft_backend
 ```
 
 ### 2. Restaurar Dependencias
