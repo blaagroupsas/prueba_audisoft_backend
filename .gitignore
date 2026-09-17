@@ -1,0 +1,46 @@
+# .NET
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+*.sln.docstates
+.vs/
+.vscode/
+
+# Entity Framework
+migrations/
+*.db
+*.db-shm
+*.db-wal
+
+# Rider
+.idea/
+*.sln.iml
+*.swp
+*.swo
+*~
+
+# Visual Studio Code
+.vscode/
+launch.json
+settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# NuGet
+.nuget/
+*.nupkg
+*.snupkg
+
+# Local environment files
+*.local.json
+local.*
