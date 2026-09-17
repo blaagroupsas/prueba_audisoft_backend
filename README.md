@@ -28,11 +28,14 @@ dotnet restore
 
 ### 3. Ejecutar Migraciones de Base de Datos
 
-Las migraciones se aplican automáticamente al iniciar la aplicación, lo que crea la base de datos SQLite si no existe.
+Primero crea la migración inicial y luego aplícala:
 
 ```bash
+dotnet ef migrations add InitialCreate
 dotnet ef database update
 ```
+
+Las migraciones crean la base de datos SQLite si no existe.
 
 ### 4. Ejecutar la Aplicación
 
